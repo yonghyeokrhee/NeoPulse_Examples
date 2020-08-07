@@ -1,3 +1,7 @@
+import io
+import os
+from zipfile import *
+
 def createInputFile(filePath):
     ''' Creates a zip file with the required csv that is expected by the sagemaker.
     The zip file will contain a file called query.csv and the image file requested 
